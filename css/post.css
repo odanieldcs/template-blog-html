@@ -1,0 +1,45 @@
+article {
+  margin: 80px 0;
+  max-width: 1000px;
+  width: 100%;
+}
+
+article h1 {
+  margin-bottom: 30px;
+}
+
+article h2 {
+  margin-bottom: 40px;
+  color: #d8d8d8;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+}
+
+article h1,
+article h2 {
+  text-align: center;
+}
+
+article section {
+  max-width: 820px;
+  flex-direction: column;
+}
+
+article h3 {
+  width: 100%;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+picture {
+  margin-bottom: 70px;
+  display: flex;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+picture img {
+  width: auto;
+  max-width: 100%;
+}

@@ -1,0 +1,47 @@
+header {
+  background-color: hsl(0, 0%, 14%);
+  min-height: 180px;
+  display: flex;
+  align-items: center;
+}
+
+header section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+}
+
+.brand img {
+  max-width: 76px;
+  border-radius: 100px;
+  border: solid 4px #fff;
+  margin-right: 30px;
+}
+
+.brand div {
+  font-size: 32px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 700;
+  justify-content: center;
+}
+
+.brand span {
+  display: block;
+  font-size: 16px;
+  color: #939393;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+nav a {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 15px;
+  display: inline-block;
+}
